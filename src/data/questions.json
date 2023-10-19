@@ -1,55 +1,231 @@
 [
     {
         "id": 1,
-        "question": "Teszt kérdés 1",
-        "correctAnswer": 1,
+        "question": "Mi az az algoritmus?",
+        "correctAnswer": 3,
         "answers": [
             {
                 "id": 1,
-                "answer": "Válasz 1"
-
+                "answer": "Egy gépnyelv"
             },
             {
                 "id": 2,
-                "answer": "Válasz 2"
-                
+                "answer": "Egy hardver eszköz"
             },
             {
                 "id": 3,
-                "answer": "Válasz 3"
-                
+                "answer": "Egy lépésről lépésre útmutató a probléma megoldásához"
             },
             {
                 "id": 4,
-                "answer": "Válasz 4"
-                
+                "answer": "Egy matematikai formula"
             }
         ]
     },
     {
         "id": 2,
-        "question": "Teszt kérdés 2",
+        "question": "Mi a különbség a kompilált és értelmezett nyelvek között?",
         "correctAnswer": 4,
         "answers": [
             {
                 "id": 1,
-                "answer": "Válasz 5"
-
+                "answer": "Nincs különbség"
             },
             {
                 "id": 2,
-                "answer": "Válasz 6"
-                
+                "answer": "Mindkettő ugyanazt a célt szolgálja"
             },
             {
                 "id": 3,
-                "answer": "Válasz 7"
-                
+                "answer": "Kompilált nyelvek csak PC-khez használhatók, értelmezett nyelvek más platformokon"
             },
             {
                 "id": 4,
-                "answer": "Válasz 8"
-                
+                "answer": "Kompilált nyelvek előre lefordítják a kódot gépi kóddá, míg értelmezett nyelvek soronként futtatják"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Mi a HTML rövidítése és mire használjuk?",
+        "correctAnswer": 2,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Hyperlink Transfer Markup Language, képek kódolására"
+            },
+            {
+                "id": 2,
+                "answer": "HyperText Markup Language, weboldalak strukturálására és formázására"
+            },
+            {
+                "id": 3,
+                "answer": "High-Tech Modern Language, programozásra"
+            },
+            {
+                "id": 4,
+                "answer": "Hyper Transfer Multi-Language, nyelvek fordítására"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Mi az SQL és mire használjuk?",
+        "correctAnswer": 3,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Simple Query Language, webes keresőmotorokhoz"
+            },
+            {
+                "id": 2,
+                "answer": "Structured Question Language, képek kódolására"
+            },
+            {
+                "id": 3,
+                "answer": "Structured Query Language, adatbázisok kezelésére és lekérdezésére"
+            },
+            {
+                "id": 4,
+                "answer": "Software Quality Language, minőségellenőrzéshez"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Mi a szerepe egy operációs rendszernek?",
+        "correctAnswer": 4,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Vírusirtó programként működik"
+            },
+            {
+                "id": 2,
+                "answer": "Csak játékok futtatására használható"
+            },
+            {
+                "id": 3,
+                "answer": "Hardvertesztelésre szolgál"
+            },
+            {
+                "id": 4,
+                "answer": "Rendszer erőforrásokat kezeli, feladatokat ütemez és kezeli az alkalmazásokat"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Mi az a JavaScript és mire használjuk?",
+        "correctAnswer": 2,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Egy adatbáziskezelő rendszer"
+            },
+            {
+                "id": 2,
+                "answer": "Egy szkriptnyelv, amit weboldalak fejlesztésére használnak"
+            },
+            {
+                "id": 3,
+                "answer": "Egy operációs rendszer"
+            },
+            {
+                "id": 4,
+                "answer": "Egy képszerkesztő program"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Mi a különbség a front-end és a back-end fejlesztés között?",
+        "correctAnswer": 4,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Nincs különbség, ugyanazt jelentik"
+            },
+            {
+                "id": 2,
+                "answer": "Front-end a háttértől előre halad, back-end a háttérben marad"
+            },
+            {
+                "id": 3,
+                "answer": "Front-end csak a felhasználói felülettel foglalkozik, back-end az adatbázisokkal"
+            },
+            {
+                "id": 4,
+                "answer": "Front-end a felhasználói felülettel foglalkozik, back-end pedig az alkalmazás logikájával és szerveroldali műveletekkel"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Mi a legnépszerűbb adatbázisrendszerek egyike a webfejlesztésben?",
+        "correctAnswer": 2,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Microsoft Word"
+            },
+            {
+                "id": 2,
+                "answer": "MySQL"
+            },
+            {
+                "id": 3,
+                "answer": "Photoshop"
+            },
+            {
+                "id": 4,
+                "answer": "Mozilla Firefox"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Az alábbiak közül melyik IKT eszköz?",
+        "correctAnswer": 1,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Egér"
+            },
+            {
+                "id": 2,
+                "answer": "Mákostészta"
+            },
+            {
+                "id": 3,
+                "answer": "Háromszög"
+            },
+            {
+                "id": 4,
+                "answer": "Motor"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Az alábbiak közül melyik IKT eszköz?",
+        "correctAnswer": 1,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Egér"
+            },
+            {
+                "id": 2,
+                "answer": "Mákostészta"
+            },
+            {
+                "id": 3,
+                "answer": "Háromszög"
+            },
+            {
+                "id": 4,
+                "answer": "Motor"
             }
         ]
     }
