@@ -4,6 +4,7 @@ import importQuestions from "@/data/questions.json"
 import { useState, useEffect, use } from 'react'
 import { IAnswer, IQuestion } from "@/interfaces/questions";
 import Notiflix from "notiflix";
+import Image from "next/image";
 
 function Quiz() {
     const [questionId, setQuestionId] = useState(0);
@@ -58,6 +59,8 @@ function Quiz() {
                 <>
                     <Card.Header>
                         <h2 className="d-flex justify-content-center">{question.question}</h2>
+                        <br/>
+                        <h3>5/{results.good+results.bad}</h3>
                     </Card.Header>
                     <Card.Body>
                         <Container>
@@ -83,14 +86,20 @@ function Quiz() {
                 <>
                     <Card.Header>
                         <h2>Köszönjük, hogy játszottál velünk!</h2>
+                        <h4>Szeretettel várunk a nyílt napunkon!</h4>
                     </Card.Header>
                     <Card.Body>
                         <Container>
                             <Row>
-                                <Col sm={12}>
+                                <Col ms={6}> <Image src={"/logo.png"} width={200} height={200} alt="Logo"/></Col>
+                                <Col sm={6} className="p-2">
                                     <h3>Jó válaszok: {results.good}</h3>
                                     <h3>Rossz válaszok: {results.bad}</h3>
-                                </Col>
+
+                                    </Col>
+
+                            </Row>
+                                <Row>
                                 <Col className="d-flex justify-content-center">
                                     <Button id="AllButton" onClick={() => {
                                         location.href="/"

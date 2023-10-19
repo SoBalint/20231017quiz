@@ -1,5 +1,5 @@
 *{
-
+font-family: Arial;
 }
 .answer:hover{
   background: #1E356B;
@@ -15,7 +15,7 @@ body{
   background: #F4EFD6;
 }
 #Conatiner{
-  width: 50rem;
+  width: 45rem;
 }
 
 #AllButton{
@@ -26,4 +26,8 @@ body{
 }
 Card.Body{
   border-radius: 20px;
+}
+h2, h4{
+  font-weight: bolder;
+text-align: center;
 }
