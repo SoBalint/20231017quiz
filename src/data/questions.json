@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "question": "Teszt kérdés 1",
+        "correctAnswer": 1,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Válasz 1"
+
+            },
+            {
+                "id": 2,
+                "answer": "Válasz 2"
+                
+            },
+            {
+                "id": 3,
+                "answer": "Válasz 3"
+                
+            },
+            {
+                "id": 4,
+                "answer": "Válasz 4"
+                
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Teszt kérdés 2",
+        "correctAnswer": 4,
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Válasz 5"
+
+            },
+            {
+                "id": 2,
+                "answer": "Válasz 6"
+                
+            },
+            {
+                "id": 3,
+                "answer": "Válasz 7"
+                
+            },
+            {
+                "id": 4,
+                "answer": "Válasz 8"
+                
+            }
+        ]
+    }
+]

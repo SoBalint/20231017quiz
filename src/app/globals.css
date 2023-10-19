@@ -1,5 +1,6 @@
 .answer:hover{
-  background: darkolivegreen;
+  background: #1E356B;
+  color: #F4EFD6;
   cursor: pointer;
 }
 body{
@@ -7,4 +8,11 @@ body{
 }
 #Card{
   background: #F4EFD6;
+}
+#Conatiner{
+  width: 50rem;
+}
+
+#AllButton{
+  background: #1E356B;
 }

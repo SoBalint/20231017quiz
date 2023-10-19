@@ -13,10 +13,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <Container>
+    <Container id="Conatiner">
       <Row>
         <Col sm={12} className="align-items-center d-flex" style={{height: '100vh'}}>
-          <Card className="w-100">
+          <Card id="Card" className="w-100">
             {children}
           </Card>
         </Col>
