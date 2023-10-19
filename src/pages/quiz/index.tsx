@@ -57,7 +57,7 @@ function Quiz() {
             {questions.length > 0 && results.good+results.bad < 5 ? (
                 <>
                     <Card.Header>
-                        {question.question}
+                        <h2 className="d-flex justify-content-center">{question.question}</h2>
                     </Card.Header>
                     <Card.Body>
                         <Container>
@@ -92,7 +92,7 @@ function Quiz() {
                                     <h3>Rossz válaszok: {results.bad}</h3>
                                 </Col>
                                 <Col className="d-flex justify-content-center">
-                                    <Button onClick={() => {
+                                    <Button id="AllButton" onClick={() => {
                                         location.href="/"
                                     }}>Vissza a fő oldalra</Button>
                                 </Col>
