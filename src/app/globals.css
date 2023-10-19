@@ -1,5 +1,6 @@
 .answer:hover{
-  background: darkolivegreen;
+  background: #1E356B;
+  color: #F4EFD6;
   cursor: pointer;
 }
 body{
