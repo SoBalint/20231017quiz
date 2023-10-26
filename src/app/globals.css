@@ -6,6 +6,7 @@ font-family: Arial;
   color: #F4EFD6;
   font-weight:bolder;
   cursor: pointer;
+  border-radius: 10px;
   ;
 }
 body{
@@ -25,7 +26,8 @@ body{
 
 }
 Card.Body{
-  border-radius: 20px;
+  border: #F4EFD6 ;
+
 }
 h2, h4{
   font-weight: bolder;
