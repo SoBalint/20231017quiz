@@ -98,8 +98,8 @@ function Quiz() {
                                     />
                                 </Col>
                                 <Col sm={6} className="p-2">
-                                    <h3>{point.title}  5/{results.good}</h3>
-                                    <h4>{point.description}</h4>
+                                    <h5>{point.title}  5/{results.good}</h5>
+                                    <h6>{point.description}</h6>
                                 </Col>
                             </Row>
                             <Row>
