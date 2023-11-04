@@ -105,9 +105,9 @@
     "question": "Az alábbiak közül melyik nem adattípus?",
     "correctAnswer": 2,
     "answers": [
-      { "id": 1, "answer": "Tuple" },
+      { "id": 1, "answer": "boolean" },
       { "id": 3, "answer": "String" },
-      { "id": 2, "answer": "Bulean" },
+      { "id": 2, "answer": "Gigabit" },
       { "id": 4, "answer": "Int" }
     ]
   },

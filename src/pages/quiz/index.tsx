@@ -19,9 +19,12 @@ function Quiz() {
 
     useEffect(() => {
         setQuestions(importQuestions);
+    }, []);
+
+    useEffect(() => {
         let num = Math.floor(Math.random() * questions.length);
         setQuestionId(num);
-    }, []);
+    }, [questions]);
 
     useEffect(() => {
         setQuestion(questions[questionId]);
@@ -48,8 +51,10 @@ function Quiz() {
 
         setQuestions(questions.filter((q) => q.id !== question.id));
     };
-    let point = importScoring.find((p: IScoring) =>{ return p.id === 1});
-    if ((results.bad+results.good)===5){point = importScoring.find((p: IScoring) =>{ return p.id === results.good});}
+    let point = importScoring.find((p: IScoring) =>{ return p.id === 1}) || importScoring[0];
+    if ((results.bad+results.good)===5) {
+        point = importScoring.find((p: IScoring) =>{ return p.id === results.good}) || importScoring[4];
+    }
     return (
         <RootLayout>
             {questions.length > 0 && results.good + results.bad < 5 ? (
@@ -57,7 +62,7 @@ function Quiz() {
                     <Card.Header>
                         <h2 className="d-flex justify-content-center">{question.question}</h2>
                         <br />
-                        <h3>5/{results.good + results.bad}</h3>
+                        <h3>{results.good + results.bad}/5</h3>
                     </Card.Header>
                     <Card.Body>
                         <Container>
