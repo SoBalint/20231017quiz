@@ -14,7 +14,7 @@ function Quiz() {
     const [questions, setQuestions] = useState([] as Array<IQuestion>);
     const [results, setResults] = useState({
         good: 0,
-        bad: 0,
+        bad: 1,
     });
 
     useEffect(() => {

@@ -7,24 +7,30 @@
   },
   {
     "id": 2,
+    "title": "Elégtelen teljesítmény",
+    "description" : "Sajnálom, de az eredményed elégtelen. Ne add fel, tanulj a hibáidból, és próbálkozz újra a kvízzel.",
+    "image": "/emoji/1.svg"
+  },
+  {
+    "id": 3,
     "title": "Alacsony teljesítmény",
     "description" : "Sajnálom, de alacsony pontszámot értél el a kvízen. Lehet, hogy szükséged van további gyakorlásra vagy tanulásra a kérdésekre adott válaszok terén.",
     "image": "/emoji/2.svg"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Közepes teljesítmény",
     "description" : "Teljesítetted a kvízt, de van néhány hibád. Próbálj további információkat szerezni azokról a témákról, ahol hibáztál.",
     "image": "/emoji/3.svg"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Jó teljesítmény",
     "description" : "Jól teljesítettél a kvízen. A legtöbb kérdést helyesen válaszoltad meg.",
     "image": "/emoji/4.svg"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Kitűnő teljesítmény",
     "description" :"Gratulálok! Kitűnően teljesítettél a kvízen.",
     "image": "/emoji/5.svg"
