@@ -53,7 +53,7 @@ function Quiz() {
     };
     let point = importScoring.find((p: IScoring) =>{ return p.id === 1}) || importScoring[0];
     if ((results.bad+results.good)===5) {
-        point = importScoring.find((p: IScoring) =>{ return p.id === results.good}) || importScoring[4];
+        point = importScoring.find((p: IScoring) =>{ return p.id === results.good+1}) || importScoring[4];
     }
     return (
         <RootLayout>
