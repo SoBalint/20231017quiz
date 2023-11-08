@@ -8,13 +8,17 @@ import { IScoring } from "@/interfaces/scoring";
 import Notiflix from "notiflix";
 import Image from "next/image";
 
+function changeColor(param: (obj: object) => void) {
+
+}
+
 function Quiz() {
     const [questionId, setQuestionId] = useState(0);
     const [question, setQuestion] = useState({} as IQuestion);
     const [questions, setQuestions] = useState([] as Array<IQuestion>);
     const [results, setResults] = useState({
         good: 0,
-        bad: 1,
+        bad: 0,
     });
 
     useEffect(() => {
@@ -33,7 +37,9 @@ function Quiz() {
             ...questions[questionId],
         }));
     }, [questionId, questions]);
+    changeColor((obj : object) => {
 
+    })
     const answerClick = (answer: IAnswer) => {
         if (answer.id === question.correctAnswer) {
             Notiflix.Notify.success("Jó válasz!");
